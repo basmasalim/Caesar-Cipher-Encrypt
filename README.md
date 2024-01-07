@@ -1,6 +1,9 @@
 # Caesar Cipher Encryption
 A simple web-based tool for Caesar Cipher encryption. This tool allows users to encrypt plaintext messages using the Caesar Cipher algorithm with a specified shift value.
 
+![image](https://github.com/basmasalim/Caesar-Cipher-Encrypt/assets/125481348/1b2b5140-acc2-416f-8c66-b5c18f607ade)
+
+
 ## Table of Contents
 
 - [Usage](#usage)
