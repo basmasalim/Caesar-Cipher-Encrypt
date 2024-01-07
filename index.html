@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---------------------------------  icon favicon URL --------------------------------->
+    <link rel="icon" href="images/3d-internet-secuirty-badge.jpg" />
+    <!---------------------------------  Font Awesome Library ------------------------------- -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--------------------------------- Template CSS File BootStab ---------------------------------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!---------------------------------  Main Template CSS File--------------------------------->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Caesar Cipher Encrypt</title>
+    <!--------------------------------------owl.carousel.js ----------------------------------->
+  </head>
+  <body>
+    <main class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+      <section class="container text-center rounded-3 px-5 py-2" style="background-color: #E9ECEF;">
+          <div class="container">
+            <h1 class="fw-bold my-4">Caesar Cipher Encrypt</h1>
+            <div class="planText">
+              <textarea
+                type="text"
+                placeholder="Type in plaintext"
+                class="form-control fs-5 fw-medium"
+                rows="3"
+                id="plainInput-1"
+              ></textarea>
+            </div>
+            <div class="row justify-content-center align-items-center my-3 text-center">
+              <div class="col-lg-3 col-10 rounded-3 key d-flex " >
+                <i class="fa-solid fa-key text-warning keyI"></i>
+                <input type="number" id="shiftInput" min="0" max="25" value="0" class="text-center fw-bold w-50"/>
+              <!-- the reason max=25 is beacause there are 26 letters and whenever we do shift of more than 26 -->
+              </div>
+              <button class="col-lg-3 col-10 mx-3 rounded-3 btn btn-success my-lg-0 my-2" id="encrypt-btn">Encrypt</button>
+              <button class="col-lg-3 col-10 rounded-3 btn btn-success" id="copyToClipBoard">Copy Text</button>
+            </div>
+            <div class="encrypt">
+              <textarea
+                type="text"
+                placeholder="Encrypted text will appear here .."
+                class="form-control fs-5 my-4 fw-medium"
+                rows="3"
+                id="encryptedInput-1"
+              ></textarea>
+            </div>
+        </div>
+      </section>
+    </main>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
